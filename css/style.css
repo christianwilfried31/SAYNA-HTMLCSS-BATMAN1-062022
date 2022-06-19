@@ -26,6 +26,9 @@ body{
   
 }
 
+.bordure{
+    border-top: #C4C4C4 3px solid;
+}
 *{
     margin: 0;
     padding: 0;
@@ -56,8 +59,12 @@ nav ul li a{
 }
 nav ul li a:hover{
     color:#FFFF00;
+    
 }
-
+ .logo:hover{
+    filter: invert(9%) sepia(43%) saturate(7500%) hue-rotate(358deg) brightness(105%) contrast(107%);
+    -webkit-filter: invert(9%) sepia(43%) saturate(7500%) hue-rotate(358deg) brightness(105%) contrast(107%);
+}
 
 /* end design nav*/
 
